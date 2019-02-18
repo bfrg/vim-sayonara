@@ -4,10 +4,10 @@
 " Description: Sane window/buffer deletion.
 " Maintainer:  Marco Hinz <http://github.com/mhinz>
 
-if exists('g:loaded_sayoara') || &compatible
+if exists('g:loaded_sayonara') || &compatible
   finish
 endif
-let g:loaded_sayoara = 1
+let g:loaded_sayonara = 1
 
 let s:save_cpo = &cpoptions
 set cpoptions&vim
